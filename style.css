@@ -620,4 +620,69 @@ body {
     .footer-center {
         padding: 20px 12px;
     }
+}@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  .page-content {
+    padding: 0 8px;
+  }
+
+  .header-container {
+    margin-top: 64px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .form-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 4px;
+  }
+
+  .form-card {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 12px;
+  }
+
+  .card-padding,
+  .form-padding {
+    padding: 14px;
+  }
+
+  .form-input {
+    min-height: 46px;
+    font-size: 15px;
+    padding: 12px;
+  }
+
+  .button {
+    min-height: 46px;
+    font-size: 15px;
+  }
+
+  .footer {
+    padding: 2rem 1rem 1.25rem;
+  }
+
+  .social-links {
+    gap: 0.8rem;
+  }
+
+  .social-links a {
+    width: 46px;
+    height: 46px;
+  }
+
+  .social-links a i {
+    font-size: 20px;
+  }
 }
